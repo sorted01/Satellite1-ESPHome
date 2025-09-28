@@ -45,7 +45,7 @@ micro_wake_word:
       id: stop
       internal: true
   vad:
-  model: github://esphome/micro-wake-word-models/models/v2/vad.json
+    model: github://esphome/micro-wake-word-models/models/v2/vad.json
   microphone:
     microphone: sat1_mics
     channels: 1
