@@ -37,7 +37,7 @@ microphone:
 micro_wake_word:
   id: mww
   models:
-    - model: github://esphome/micro-wake-word-models/models/alexa.json
+    - model: github://esphome/micro-wake-word-models/models/v2/alexa.json
       id: alexa
     - model: okay_nabu
       id: okay_nabu    
