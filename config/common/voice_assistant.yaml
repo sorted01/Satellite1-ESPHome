@@ -37,14 +37,15 @@ microphone:
 micro_wake_word:
   id: mww
   models:
-    - model: hey_jarvis
-      id: hey_jarvis
+    - model: github://esphome/micro-wake-word-models/models/alexa.json
+      id: alexa
     - model: okay_nabu
       id: okay_nabu    
     - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
       id: stop
       internal: true
   vad:
+  model: github://esphome/micro-wake-word-models/models/v2/vad.json
   microphone:
     microphone: sat1_mics
     channels: 1
